@@ -5,7 +5,8 @@ This file describes the variables, the data and transformations that have been p
 Original Dataset:  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
-* The run_analysis.R script performs the following steps to clean up the data:   
+The run_analysis.R script performs the following steps to clean up the data:   
+
 1. Read features.txt and store it in features dataframe (561 columns)
 2. Make feature names consistent, removing not required characters and every word starts with a big letter
 3. Read activity labels and store it activities dataframe (6 columns), WALKING...RUNNING...
